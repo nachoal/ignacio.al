@@ -4,12 +4,21 @@
     <title>Ignacio Alonso</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     
+    <%= stylesheet_link_tag 'application', media: 'all'%>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136836903-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-136836903-1');
+    </script>
   </head>
 
   <body>
     <%= yield %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_pack_tag 'application' %>
   </body>
 </html>

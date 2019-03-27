@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('components/avatar.scss');
+ @import url('components/title-card.scss');
+
+ body {
+   padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+ }
+
+a {
+  color: #E40108;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+
+}
