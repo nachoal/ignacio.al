@@ -1,0 +1,26 @@
+.title-card {
+  overflow: hidden;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.title-card h1 {
+  margin-bottom: 0px;
+  
+}
+
+.title-card p {
+  margin-top: 0px;
+  
+}
+
+.title-card img {
+  align-self: flex-start;
+}
+
+
+.title-card .title-card-infos {
+  padding-left: 25px;
+  align-self: flex-start;
+}
